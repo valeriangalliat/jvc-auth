@@ -1,5 +1,4 @@
-jvc-auth
-========
+# jvc-auth [![npm version](http://img.shields.io/npm/v/jvc-auth.svg?style=flat-square)](https://www.npmjs.org/package/jvc-auth)
 
 > Authenticate [jeuxvideo.com] users.
 
