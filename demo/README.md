@@ -13,6 +13,10 @@ This is an interactive example to show how to reliably authenticate
 
 [jeuxvideo.com]: https://www.jeuxvideo.com/
 
+This demo is based on [antisocial-auth example][aa].
+
+[aa]: https://github.com/valeriangalliat/antisocial-auth#library
+
 Usage
 -----
 
