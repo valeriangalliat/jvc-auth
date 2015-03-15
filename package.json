@@ -1,0 +1,35 @@
+{
+  "name": "jvc-auth",
+  "version": "0.1.0",
+  "description": "Authenticate jeuxvideo.com users.",
+  "homepage": "https://github.com/valeriangalliat/jvc-auth",
+  "license": {
+    "type": "Unlicense",
+    "url": "http://unlicense.org/"
+  },
+  "author": {
+    "name": "Valérian Galliat",
+    "url": "http://val.codejam.info/"
+  },
+  "files": [
+    "README.md",
+    "UNLICENSE",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valeriangalliat/jvc-auth.git"
+  },
+  "dependencies": {
+    "antisocial-auth": "^1.0.1",
+    "babel-runtime": "^4.5.0",
+    "jvc": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel": "^4.5.0"
+  },
+  "scripts": {
+    "build": "babel index.es6.js -o index.js",
+    "prepublish": "$npm_package_scripts_build"
+  }
+}

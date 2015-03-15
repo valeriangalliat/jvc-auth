@@ -1,0 +1,12 @@
+extends layout.jade
+
+block content
+  if user
+    p Logged in as #[a(href=profile)= user]!
+    form(action='/logout')
+      button(type='submit') Logout
+  else
+    form(action='/auth')
+      p
+        input(type='text', name='user', placeholder='Your jeuxvideo.com nick')
+        button(type='submit') Login

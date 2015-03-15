@@ -1,0 +1,5 @@
+{
+  "experimental": true,
+  "loose": true,
+  "optional": ["runtime"]
+}

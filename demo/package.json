@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.3.4",
+    "express": "^4.12.2",
+    "express-then": "^1.0.2",
+    "jade": "^1.9.2",
+    "jvc-cli": "^0.1.1"
+  },
+  "devDependencies": {
+    "babel": "^4.5.0"
+  },
+  "scripts": {
+    "config": "babel-node config.js",
+    "start": "babel-node index.js"
+  }
+}

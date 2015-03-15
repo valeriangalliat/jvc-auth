@@ -1,0 +1,8 @@
+extends layout.jade
+
+block content
+  p Please send the following code to #[a(href=link)= bot]!
+  p: textarea(cols=32, rows=7, onclick='select()')= nonce
+
+  form(action='/auth/confirm')
+    p: button(type='submit') I'm done!
