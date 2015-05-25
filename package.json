@@ -3,10 +3,7 @@
   "version": "0.1.0",
   "description": "Authenticate jeuxvideo.com users.",
   "homepage": "https://github.com/valeriangalliat/jvc-auth",
-  "license": {
-    "type": "Unlicense",
-    "url": "http://unlicense.org/"
-  },
+  "license": "Unlicense",
   "author": {
     "name": "Valérian Galliat",
     "url": "http://val.codejam.info/"
