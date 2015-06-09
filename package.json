@@ -17,6 +17,11 @@
     "type": "git",
     "url": "https://github.com/valeriangalliat/jvc-auth.git"
   },
+  "scripts": {
+    "build": "babel index.es6.js -o index.js",
+    "prepublish": "$npm_package_scripts_build",
+    "test": "standard index.es6.js"
+  },
   "dependencies": {
     "antisocial-auth": "^1.0.1",
     "babel-runtime": "^4.5.0",
@@ -26,11 +31,6 @@
     "babel": "^4.5.0",
     "babel-eslint": "^3.1.14",
     "standard": "^4.0.1"
-  },
-  "scripts": {
-    "build": "babel index.es6.js -o index.js",
-    "prepublish": "$npm_package_scripts_build",
-    "test": "standard index.es6.js"
   },
   "standard": {
     "parser": "babel-eslint"
