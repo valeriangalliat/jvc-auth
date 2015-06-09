@@ -7,10 +7,15 @@
     "jvc-cli": "^0.1.1"
   },
   "devDependencies": {
-    "babel": "^4.5.0"
+    "babel": "^4.5.0",
+    "babel-eslint": "^3.1.14"
   },
   "scripts": {
     "config": "babel-node config.js",
-    "start": "babel-node index.js"
+    "start": "babel-node index.js",
+    "test": "standard"
+  },
+  "standard": {
+    "parser": "babel-eslint"
   }
 }
