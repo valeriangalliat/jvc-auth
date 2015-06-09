@@ -2,7 +2,7 @@ const config = require('./config.json')
 const defaultAuth = require('../index.es6.js')
 
 const auth = defaultAuth.override({
-  jvc: defaultAuth.jvc.override({ user: config.bot }),
+  jvc: defaultAuth.jvc.override({ user: config.bot })
 })
 
 const app = require('express')()

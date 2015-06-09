@@ -25,13 +25,13 @@ export default auth.override({
         ).post
 
         return nonce.equals(auth.uglify(post))
-      },
+      }
   },
 
   jvc,
 
   checkMessage: _ => _.core.checkMessage({
     uglify: _.uglify,
-    jvc: _.jvc,
-  }),
+    jvc: _.jvc
+  })
 })
